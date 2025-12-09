@@ -44,3 +44,13 @@
       BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 }
+
+/* Global styles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "GeneralSans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  font-family: "Switzer", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
