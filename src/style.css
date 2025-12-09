@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/Switzer-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("/Switzer-VariableItalic.ttf") format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GeneralSans";
+  src: url("/GeneralSans-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GeneralSans";
+  src: url("/GeneralSans-VariableItalic.ttf") format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  font-family: "Switzer", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+@layer utilities {
+  .font-switzer {
+    font-family: "Switzer", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+  }
+
+  .font-general-sans {
+    font-family: "GeneralSans", ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+}
